@@ -1,0 +1,28 @@
+{
+  "name": "judgementday-election-results",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--no-experimental-webstorage next dev",
+    "build": "NODE_OPTIONS=--no-experimental-webstorage next build",
+    "start": "NODE_OPTIONS=--no-experimental-webstorage next start",
+    "lint": "next lint",
+    "db:seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "next": "15.3.2",
+    "pg": "8.16.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.21",
+    "@types/pg": "8.15.1",
+    "@types/react": "19.1.4",
+    "@types/react-dom": "19.1.5",
+    "eslint": "9.26.0",
+    "eslint-config-next": "15.3.2",
+    "tsx": "4.19.4",
+    "typescript": "5.8.3"
+  }
+}
